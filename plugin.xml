@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-firebase" version="0.1.23"
+<plugin id="cordova-plugin-firebase-cactusoft" version="0.1"
 xmlns="http://apache.org/cordova/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android">
-	<name>Google Firebase Plugin</name>
+	<name>Google Firebase Plugin - Cactusoft modified</name>
 
 	<license>MIT</license>
 
@@ -47,7 +47,6 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 			</service>
 			<receiver android:name="org.apache.cordova.firebase.OnNotificationOpenReceiver"></receiver>
 		</config-file>
-		<source-file src="src/android/google-services.json" target-dir="." />
 		<source-file src="src/android/FirebasePlugin.java" target-dir="src/org/apache/cordova/firebase" />
 		<source-file src="src/android/OnNotificationOpenReceiver.java" target-dir="src/org/apache/cordova/firebase" />
 		<source-file src="src/android/FirebasePluginInstanceIDService.java" target-dir="src/org/apache/cordova/firebase" />
@@ -77,8 +76,6 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 		<config-file parent="aps-environment" target="*/Entitlements-Release.plist">
 			<string>production</string>
 		</config-file>
-
-		<resource-file src="src/ios/GoogleService-Info.plist" target="Resources/GoogleService-Info.plist" />
 
 		<header-file src="src/ios/AppDelegate+FirebasePlugin.h" />
 		<source-file src="src/ios/AppDelegate+FirebasePlugin.m" />
