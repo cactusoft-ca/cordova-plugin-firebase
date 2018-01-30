@@ -8,7 +8,7 @@
     "url": "https://github.com/plchampigny/cordova-plugin-firebase"
   },
   "name": "cactusoft.cordova-plugin-firebase",
-  "version": "0.1.23",
+  "version": "0.1",
   "description": "Cordova plugin for Google Firebase",
   "cordova": {
     "id": "cactusoft.cordova-plugin-firebase",
