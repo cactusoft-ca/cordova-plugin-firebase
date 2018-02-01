@@ -8,7 +8,7 @@
     "url": "https://github.com/cactusoft-ca/cordova-plugin-firebase"
   },
   "name": "@cactusoft/cordova-plugin-firebase",
-  "version": "0.1.24",
+  "version": "0.1.25",
   "description": "Cordova plugin for Google Firebase",
   "cordova": {
     "id": "@cactusoft/cordova-plugin-firebase",
@@ -26,6 +26,7 @@
     "cordova-browser",
     "firebase",
     "push",
-    "notifications"
+    "notifications",
+    "phone auth"
   ]
 }
