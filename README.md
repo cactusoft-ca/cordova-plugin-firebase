@@ -1,17 +1,19 @@
-# cordova-plugin-firebase
+# @cactusoft/cordova-plugin-firebase
+## THIS PLUGIN IS A FORK OF cordova-plugin-firebase
+
 This plugin brings push notifications, analytics, event tracking, crash reporting and more from Google Firebase to your Cordova project!
 Android and iOS supported.
 
 ## Installation
-See npm package for versions - https://www.npmjs.com/package/cordova-plugin-firebase
+See npm package for versions - https://www.npmjs.com/package/@cactusoft/cordova-plugin-firebase
 
 Install the plugin by adding it your project's config.xml:
 ```
-<plugin name="cactusoft.cordova-plugin-firebase" spec="0.1.23" />
+<plugin name="@cactusoft/cordova-plugin-firebase" spec="0.1.24" />
 ```
 or by running:
 ```
-cordova plugin add cactusoft.cordova-plugin-firebase@0.1.23 --save
+cordova plugin add @cactusoft/cordova-plugin-firebase@0.1.24 --save
 ```
 Download your Firebase configuration files, GoogleService-Info.plist for ios and google-services.json for android, and place them in the root folder of your cordova project:
 

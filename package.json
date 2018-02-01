@@ -1,14 +1,14 @@
 {
   "author": {
-    "name": "Pierre-Luc Champigny"
+    "name": "Cactusoft"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/plchampigny/cordova-plugin-firebase"
+    "url": "https://github.com/cactusoft-ca/cordova-plugin-firebase"
   },
   "name": "@cactusoft/cordova-plugin-firebase",
-  "version": "0.1.23",
+  "version": "0.1.24",
   "description": "Cordova plugin for Google Firebase",
   "cordova": {
     "id": "@cactusoft/cordova-plugin-firebase",
@@ -19,6 +19,7 @@
     ]
   },
   "keywords": [
+    "cactusoft",
     "ecosystem:cordova",
     "cordova-android",
     "cordova-ios",
